@@ -10,7 +10,7 @@ pipeline {
         stage('Initialize'){
             steps{
                 echo "PATH = ${java}/bin:${PATH}"
-                echo "M2_HOME = /etc/maven"
+                echo "java = /etc/maven"
             }
         }
         stage('Build') {
